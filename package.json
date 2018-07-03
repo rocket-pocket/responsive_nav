@@ -1,0 +1,23 @@
+{
+  "name": "responsive_nav",
+  "version": "1.0.0",
+  "description": "menu responsive",
+  "main": "app.js",
+  "scripts": {
+    "start":"parallelshell \"npm run server\" \"npm run vigilar\"",    
+    "vigilar":"nodemon -e scss -x \"sass scss:css\"",
+    "server":"http-server ..\"",
+    "sass":"sass scss:css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocket-pocket/responsive_nav.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocket-pocket/responsive_nav/issues"
+  },
+  "homepage": "https://github.com/rocket-pocket/responsive_nav#readme"
+}
